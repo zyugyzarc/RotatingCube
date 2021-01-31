@@ -1,7 +1,7 @@
 # ROTATING CUBE
 made this while i was bored.
 
-#Setup
+# Setup
 1. git clone https://github.com/zyugyzarc/RotatingCube
 2. python3 compile.py build_ext --inplace
 3. python3 cube.py
@@ -9,7 +9,7 @@ made this while i was bored.
 runing cube.py shows a cube. (make sure your terminal's size is atleast 155 lines and 50 chars wide)
 
 
-#info (what is going on with all these files?)
+# info (what is going on with all these files?)
 
 main.py contains the main framework for drawing images (using points and lines) onto a terminal screen
 render.pyx contains the cython code for making point() and line() faster.
