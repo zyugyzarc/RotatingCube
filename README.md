@@ -13,5 +13,7 @@ runing cube.py shows a cube. (make sure your terminal's size is atleast 155 line
 # info (what is going on with all these files?)
 
 main.py contains the main framework for drawing images (using points and lines) onto a terminal screen
+
 render.pyx contains the cython code for making point() and line() faster.
+
 compile.py compiles render.pyx into render.\*.so (on \*NIX) or render.\*.pyd (on windows)
