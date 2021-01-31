@@ -2,7 +2,7 @@
 made this while i was bored.
 
 # Setup
-1. `$ git clone https://github.com/zyugyzarc/RotatingCube`
+1. `$ git clone https://github.com/zyugyzarc/RotatingCube && cd RotatingCube`
 2. `$ pip3 install cython numpy`
 3. `$ python3 compile.py build_ext --inplace`
 4. `$ python3 cube.py`
