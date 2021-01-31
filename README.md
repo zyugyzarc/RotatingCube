@@ -17,3 +17,5 @@ main.py contains the main framework for drawing images (using points and lines) 
 render.pyx contains the cython code for making point() and line() faster.
 
 compile.py compiles render.pyx into render.\*.so (on \*NIX) or render.\*.pyd (on windows)
+
+cube.py contains the basic framework for rendering a cube (i stole this from another youtuber's tutorial, but i dont remember the name)
